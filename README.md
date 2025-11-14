@@ -55,26 +55,3 @@ public class NonRecursiveFibonacci {
     }
 }
 
-/*
----------------------------------------------
-    ANALYSIS OF TIME AND SPACE COMPLEXITY
----------------------------------------------
-
-1️⃣ TIME COMPLEXITY:
-   - The loop runs from 2 to n.
-   - Each iteration does a constant amount of work (addition and assignment).
-   - Hence:
-        Time Complexity = O(n)
-
-2️⃣ SPACE COMPLEXITY:
-   - Uses only a few integer variables (n1, n2, n3).
-   - No recursion or extra data structures.
-   - Hence:
-        Space Complexity = O(1)
-
-✅ FINAL SUMMARY:
-   Approach          : Non-Recursive (Iterative)
-   Time Complexity   : O(n)
-   Space Complexity  : O(1)
----------------------------------------------
-*/
